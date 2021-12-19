@@ -1,0 +1,240 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: universalWater
+  m_Shader: {fileID: 4800000, guid: f43a9ae573ff59646b594b672f2af357, type: 3}
+  m_ShaderKeywords: _ENABLE_INTERACTIVE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpTex:
+        m_Texture: {fileID: 2800000, guid: 83354cabd507a40e1bed911b92f64ba3, type: 3}
+        m_Scale: {x: 5.63, y: 8.35}
+        m_Offset: {x: 0, y: 0}
+    - _CausticsTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 2800000, guid: 5126f3304d2084d7e824deb2e79c69ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FoamTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5126f3304d2084d7e824deb2e79c69ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: ab837645cb88ea945b0fb4391f6faf2b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normals:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _rampTex:
+        m_Texture: {fileID: 2800000, guid: aa57bd66fa1318a4b806b83baf6960ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaClip: 0
+    - _Amplitube: 0.011
+    - _ApplyNormalMapping: 1
+    - _Blend: 0
+    - _BlendOp: 0
+    - _BumpHeightA: 0.526
+    - _BumpHeightB: 0.275
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _Caustics: 1
+    - _CausticsDepthOfField: 0.33
+    - _CausticsDistortionScale: 25
+    - _CausticsDistortionStrength: 0.16
+    - _CausticsFocalDepth: 2
+    - _CausticsStrength: 3.2
+    - _CausticsTextureAverage: 0.07
+    - _CausticsTextureScale: 5
+    - _ClipSurface: 0
+    - _ClipUnderTerrain: 0
+    - _ColorMode: 0
+    - _CompileShaderWithDebugInfo: 0
+    - _Cull: 2
+    - _CullMode: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0.1
+    - _DstBlend: 0
+    - _ENABLE_GEOMETRY_WAVE: 0
+    - _ENABLE_INTERACTIVE: 1
+    - _EnvironmentReflections: 1
+    - _FlipbookBlending: 0
+    - _FlipbookMode: 0
+    - _Flow: 0
+    - _FlowMapSpeed: 1.74
+    - _FlowStrength: 0.148
+    - _Foam: 1
+    - _Foam3DLighting: 1
+    - _FoamBubbleParallax: 0.14
+    - _FoamScale: 10
+    - _FresnelPower: 5
+    - _GlossMapScale: 1
+    - _Glossiness: 301
+    - _GlossyReflections: 1
+    - _GradientPosition1: 96.52
+    - _GradientPosition2: 61.4
+    - _IS_USE_NORMAL_MAP: 0
+    - _IS_USE_RAMP_TEX: 0
+    - _LightIntensityMultiplier: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NormalsScale: 40
+    - _NormalsStrength: 0.36
+    - _NormalsStrengthOverall: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PlanarReflectionIntensity: 1
+    - _PlanarReflectionNormalsStrength: 1
+    - _PlanarReflections: 0
+    - _ProceduralSky: 0
+    - _Projection: 0
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
+    - _ReflectionBlur: 0
+    - _RefractionGradientRange: 4.6
+    - _RefractionIntensity: 65.69
+    - _RefractionStrength: 0.5
+    - _RefractiveIndexOfAir: 1
+    - _RefractiveIndexOfWater: 1.333
+    - _Scale: 10
+    - _SceanDepth: 5
+    - _Shadows: 0
+    - _ShorelineFoamMinDepth: 0.27
+    - _SkyDirectionality: 1
+    - _Smoothness: 0.8
+    - _SmoothnessFar: 0.35
+    - _SmoothnessFarDistance: 2000
+    - _SmoothnessPower: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpeStrength: 0.67
+    - _Specular: 0.7
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Steepness: 0.069
+    - _SubSurfaceBase: 0
+    - _SubSurfaceDepthMax: 10
+    - _SubSurfaceDepthPower: 2.5
+    - _SubSurfaceScattering: 1
+    - _SubSurfaceShallowColour: 1
+    - _SubSurfaceSun: 1.7
+    - _SubSurfaceSunFallOff: 5
+    - _Surface: 0
+    - _Tiling: 7.49
+    - _TilingB: 10
+    - _Transparency: 1
+    - _UJump: -0.166
+    - _UVSec: 0
+    - _Underwater: 0
+    - _VJump: 0.057
+    - _VarySmoothnessOverDistance: 0
+    - _WaveFoamBubblesCoverage: 1.68
+    - _WaveFoamFeather: 0.4
+    - _WaveFoamLightScale: 1.35
+    - _WaveFoamNormalStrength: 3.5
+    - _WaveFoamSpecularBoost: 0.15
+    - _WaveFoamSpecularFallOff: 293
+    - _WaveLength: 0.54
+    - _WaveSpeed: 0.965
+    - _WorkflowMode: 1
+    - _ZWrite: 1
+    - _phaseOffset: 0.31
+    m_Colors:
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
+    - _CameraFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthFogDensity: {r: 0.9, g: 0.3, b: 0.35, a: 1}
+    - _DepthGradient1: {r: 0.9622642, g: 0.9350303, b: 0.6853863, a: 1}
+    - _DepthGradient2: {r: 0.27006942, g: 0.46826243, b: 0.4811321, a: 1}
+    - _DepthGradient3: {r: 1, g: 1, b: 1, a: 1}
+    - _Diffuse: {r: 0, g: 0.0026954073, b: 0.16981131, a: 1}
+    - _DiffuseGrazing: {r: 0, g: 0.003921569, b: 0.1686274, a: 1}
+    - _DiffuseShadow: {r: 0, g: 0.0013477041, b: 0.084905684, a: 1}
+    - _Direction: {r: -33.63, g: -18.41, b: -11.61, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FoamBubbleColor: {r: 0.64, g: 0.83, b: 0.82, a: 1}
+    - _FoamWhiteColor: {r: 1, g: 1, b: 1, a: 1}
+    - _GradientPosition: {r: 0.38, g: 0.3, b: 17.55, a: 3.1}
+    - _SkyAwayFromSun: {r: 1, g: 1, b: 1, a: 1}
+    - _SkyBase: {r: 1, g: 1, b: 1, a: 1}
+    - _SkyTowardsSun: {r: 1, g: 1, b: 1, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _SubSurfaceColour: {r: 0.08850684, g: 0.497, b: 0.45615074, a: 1}
+    - _SubSurfaceShallowCol: {r: 0, g: 0.003921569, b: 0.24705884, a: 1}
+    - _SubSurfaceShallowColShadow: {r: 0, g: 0.0053968453, b: 0.17, a: 1}
+    - _WaveA: {r: 13.01, g: 0, b: 2.84, a: 18.4}
+    - _WaveB: {r: -0.25, g: 1, b: 3.26, a: 1}
+    - _WaveC: {r: 1.3, g: 1, b: 2.78, a: 1}
